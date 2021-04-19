@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body{
+    width: 100%;
+    background-color:  indigo;
+}
+
+.container{
+    width: 705px;
+    background-color: #fafafa;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px  grey;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+main >*{
+    margin: 20px 0;
+}
+
+.slider{
+    display: flex;
+    background-image: url('../img/foto1.svg');
+    width: 605px;
+    height: 255px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px grey;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    background-color: rgba(170, 170, 170, .5);
+    border-radius: 50%;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.arrow{
+    height: 20px;
+    width: 20px;
+}
+
+section{
+    margin-top: 40px;
+}
+
+section.articles {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+article{
+    width: 256px;
+    background-color: #eeeeee;
+    box-shadow: 0 0 10px grey;
+}
+
+.spots{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 0px 10px;
+}
+
+.spots .value{
+    font-family: Ropa Sans;
+    font-size: 25px;
+    font-weight: 400;
+    color: #888888;
+}
+
+.spots .new {
+    font-family: Ropa Sans;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fafafa;
+    background-color: #51D275;
+    border-radius: 20px;
+    padding: 0 10px;
+    padding-bottom: 6px;
+    align-content: center;
+    height: 15px;
+}
+
+.spots .sale {
+    font-family: Ropa Sans;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fafafa;
+    background-color: #DC9730;
+    border-radius: 20px;
+    padding: 0 10px;
+    padding-bottom: 6px;
+    align-content: center;
+    height: 15px;
+}
+
+article p {
+    font-family: Ropa Sans;
+    font-size: 10px;
+    font-weight: lighter;
+    line-height: 12px;
+    padding: 0 10px;
+    text-align: justify;
+    color: #888888;
+}
+
+h2 {
+    font-family: Ropa Sans;
+    font-size: 25px;
+    font-weight: 400;
+    color: #888888;
+    text-align: center;
+}
+
+.banners p {
+    font-family: Ropa Sans;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fafafa;
+    text-align: center;
+    text-shadow: 2px 2px #111111;
+}
+
+.banners div{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    opacity: 70%;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 0 10px grey;
+}
+.industrial {
+    background-image: url('../img/industrial.svg');
+}
+
+.classic {
+    background-image: url('../img/classic.svg');
+} 
+
+.modern {
+    background-image: url('../img/modern.svg');
+}
+    
+
+/* ----------------------------------------------------------------------------------------------------------------------*/
+footer{
+    padding: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-family: Ropa Sans;
+    font-size: 12px;
+    line-height: .2;
+}
+
+footer .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts img {
+    margin: 0 8px;
+}
