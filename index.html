@@ -13,11 +13,16 @@
 
         <header>
             <div>
-                <img src="img/logo.svg" alt="logo da homeFront" class="logo">
-                <img src="img/You Love, your loft!.svg" alt="logo da homeFront" class="logo">
+                <img src="img/logo.svg" alt="logo da homeFront">
+                <img src="img/You Love, your loft!.svg" alt="frase da homeFront">
             </div>
+            
+                <p class="olaUsuario" id="ola"></p>
+
+            
             <div>
-                <img src="img/hamburguer.svg" alt="logo da homeFront" class="logo">
+                <img src="img/hamburguer.svg" alt="três tracinhos de opções">
+                <button onclick="darkMode()">Mudar tema</button>
             </div>
         </header>
 
@@ -63,6 +68,20 @@
                     <p>Modern</p>
                </div>
             </section>
+
+            <section class="contact">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <form id="form_contact" action="thanks.html">
+                        <input type="text" name="nome" id="input_nome" placeholder="Nome">
+                        <input type="email" name="email" id="input_email" placeholder="Email">
+                        <input type="text" name="telefone" id="input_telefone" placeholder="Telefone">
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                        <button type="submit" id="btn-submit-contact">Enviar</button>
+                    </form>
+                </div>
+            </section>
+
         </main>
 
         <footer>
@@ -84,5 +103,6 @@
          </footer>
 
     </div> 
+    <script src="js/main.js"></script>
 </body>
 </html>
